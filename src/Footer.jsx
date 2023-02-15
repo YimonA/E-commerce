@@ -36,7 +36,7 @@ const Footer = () => {
             </button>
           </div>
           <div className="text-center">
-            <span className=" fs-5 p-2 fw-semibold user-select-non">
+            <span className=" fs-5 fw-semibold user-select-non">
               Follow us on{" "}
             </span>
             <div className="col-sm-12 text-center">
