@@ -36,10 +36,10 @@ const Footer = () => {
             </button>
           </div>
           <div className="text-center">
-            <span className=" fs-5 me-4 fw-semibold user-select-none text-center">
+            <span className=" fs-5 p-2 fw-semibold user-select-non">
               Follow us on{" "}
             </span>
-            <div className="col-sm-12">
+            <div className="col-sm-12 text-center">
               <a href="#">
                 <i class="bi bi-facebook myblue me-4"></i>
               </a>
