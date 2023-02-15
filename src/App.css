@@ -1,0 +1,32 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+.myImg{
+    object-fit: contain;
+    object-position: center;
+    height: 150px;
+}
+.myblue{
+    font-size: 2rem;
+    color: blue;
+}
+.myred{
+    font-size: 2rem;
+    color: red;
+}
+.mydark{
+    font-size: 2rem;
+    color: black;
+}
+.myCart:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+.mylink:hover{
+    background-color: rgb(201, 201, 201);
+    transition: 1s;
+}
+.myNavBorder{
+    border-bottom: 3px solid black;
+}
