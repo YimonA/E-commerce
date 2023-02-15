@@ -14,7 +14,7 @@ const Footer = () => {
               necessitatibus porro animi magni.
             </p>
           </div>
-          <div className=" d-flex column align-items-center">
+          <div className=" d-flex column align-items-center mb3">
             <i class="bi bi-telephone mydark me-4"></i>
             <p className="user-select-none">+959 123456789</p>
           </div>
@@ -31,23 +31,25 @@ const Footer = () => {
               aria-label="Enter email"
               aria-describedby="button-addon2"
             />
-            <button class="btn btn-primary" type="button" id="button-addon2">
+            <button class="btn btn-primary btn-sm" type="button" id="button-addon2">
               Subscribe Now
             </button>
           </div>
           <div className="text-center">
-            <span className=" fs-5 me-4 fw-semibold user-select-none">
+            <span className=" fs-5 me-4 fw-semibold user-select-none text-center">
               Follow us on{" "}
             </span>
-            <a href="#">
-              <i class="bi bi-facebook myblue me-4"></i>
-            </a>
-            <a href="#">
-              <i class="bi bi-instagram myred me-4"></i>
-            </a>
-            <a href="#">
+            <div className="col-sm-12">
+              <a href="#">
+                <i class="bi bi-facebook myblue me-4"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-instagram myred me-4"></i>
+              </a>
+              <a href="#">
               <i class="bi bi-twitter myblue"></i>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>
